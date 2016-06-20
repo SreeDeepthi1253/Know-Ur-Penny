@@ -1,0 +1,180 @@
+<html>
+<head>
+<style type="text/css">		
+body {
+    padding: 0; 
+    margin: 0;
+    background-image:url("minting.gif");
+}
+#content img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#deept {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    font-size:120%; 
+}
+h1{
+    text-align:center;
+    font-style:italic;
+    font-size:225%;
+    color:white;
+}
+dl,h3 {
+    color:white;
+    font-size:150%
+}
+p {
+    font-size:150%;
+    color:white
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+#wrap {
+    width: 100%;
+    height: 50px; 
+    margin: 0; 
+    z-index: 99;
+    position: relative;
+    background-color: crimson;
+}
+	
+.navbar	{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    border-right: 1px solid white;
+}						
+.navbar li{
+	height: auto;
+	width: 150px; 
+	float: left; 
+	text-align: center; 
+	list-style: none; 
+	font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+	padding: 0;
+	margin: 0;
+	background-color: crimson;					
+}
+
+.navbar a{							
+	padding: 18px 0; 
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.navbar li:hover, a:hover{
+        background-color: goldenrod;
+}
+								
+.navbar li ul {
+	display: none;
+	height: auto;									
+	margin: 0;
+	padding: 0;								
+}
+				
+.navbar li:hover ul {
+	display: block;									
+}
+									
+.navbar li ul li{
+        background-color: goldenrod;
+}
+				
+.navbar li ul li a {
+	border-left: 1px solid white; 
+	border-right: 1px solid white; 
+	border-top: 1px solid white; 
+	border-bottom: 1px solid white; 
+}
+				
+.navbar li ul li a:hover{
+        background-color: gold;
+}						
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow75.js"></script>							
+</head>	
+<body>
+<center>
+<img src="http://images.cooltext.com/4543143.png" width="599" height="125" alt="Know ur Penny...!" />
+</center>
+<div id="content">
+<a href="commence.html" target="_top">
+<img src="moving.gif"width="100" height="100">
+</a>
+</div>
+<div id="wrap">
+<ul class="navbar">
+   <li><a href="commence.html" target="_top">Home</a></li>
+   <li><a href="#">Penny History</a>
+	<ul>
+	  <li><a href="leatherhist.html" onclick="parent.frame_b.location='imgleather.html'">Leather notes</a></li>
+	  <li><a href="papercurrency.html" onclick="parent.frame_b.location='imgpaper.html'">Paper notes</a></li>
+	  <li><a href="silkcurrency.html" onclick="parent.frame_b.location='imgsilk.html'">Silk notes</a></li>
+        </ul>         
+   </li>
+   <li><a href="#">Presently using</a>
+         <ul>
+           <li><a href="cottonnotes.html" onclick="parent.frame_b.location='imgcotton.html'">Cotton notes</a></li>
+	   <li><a href="polymernotes.html" onclick="parent.frame_b.location='imgpolymer.html'">Polymer notes</a></li>
+	</ul>         
+   </li>
+   <li><a href="cur_country.html" onclick="parent.frame_b.location='imgcountry.html'">Country Currencies</a></li>         
+    <li><a href="plasticmoney.html" onclick="parent.frame_b.location='imgplastic.html'">Plastic Money</a></li>
+     <li><a href="#">Indian Penny</a>
+	<ul>
+	   <li><a href="historyrupee.html" onclick="parent.frame_b.location='imghistory.html'">History</a></li>
+	   <li><a href="indianmint.html" onclick="parent.frame_b.location='imgmint.html'">Minting centres</a></li>
+	   <li><a href="oldpenny.html" onclick="parent.frame_b.location='frame_b.html'">Old Indian penny</a></li>
+           <li><a href="factsindia.html" onclick="parent.frame_b.location='frame_b.html'">Facts About Penny</a></li>
+	</ul>         
+     </li>
+</ul>
+</div>
+<h3>Mints under Indian Government :</h3>
+<dl>
+<br>
+<center>
+<div id="deept">
+<dt>They are in...</dt>
+<br>
+<dd>Mumbai, Maharashtra</dd>
+<dd>Kolkata, West Bengal</dd>
+<dd>Hyderabad, Telangana</dd>
+<dd>Noida, Uttar Pradesh</dd>
+</dl>
+</center>
+<hr>
+<dl>
+<dt>Mumbai(Bombay) Mint Centre
+<dd>If a coin has a <u>"Diamond"</u> under the date of the coin then it shows that the coin ins minted in the Mumbai Mint Centre</dd>
+</dl>
+<dl>
+<hr>
+<dt>Calcutta(Kolkata) Mint Centre</dt>
+<dd><u>No sign or symbol</u> can be seen below the date of the coin if the coin is minted from Kolkata Mint Centre</dd>
+</dl>
+<dl>
+<hr>
+<dt>Hyderbad Mint Centre</dt>
+<dd>If a coin has a <u>"Star"</u> under the date of the coin then it shows that the coin ins minted in the Hyderabad Mint Centre</dd>
+</dl>
+<dl>
+<hr>
+<dt>Noida Mint Centre</dt>
+<dd>If a coin has a <u>"Dot"</u> under the date of the coin then it shows that the coin ins minted in the Hyderabad Mint Centre</dd>
+</dl>
+</body>	
+</html>
+	
